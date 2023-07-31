@@ -1,0 +1,3082 @@
+{
+  "id": "1785219",
+  "name": "egova-facility-web",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "市政vue项目tu&amp;#039;biao",
+  "glyphs": [
+    {
+      "icon_id": "5961366",
+      "name": "列表",
+      "font_class": "liebiao",
+      "unicode": "ec6b",
+      "unicode_decimal": 60523
+    },
+    {
+      "icon_id": "18165814",
+      "name": "名片,卡片",
+      "font_class": "name-card",
+      "unicode": "e8a6",
+      "unicode_decimal": 59558
+    },
+    {
+      "icon_id": "13253810",
+      "name": "file-text",
+      "font_class": "tree-file",
+      "unicode": "e788",
+      "unicode_decimal": 59272
+    },
+    {
+      "icon_id": "24342021",
+      "name": "motor van-line",
+      "font_class": "et-vehicle",
+      "unicode": "e9f5",
+      "unicode_decimal": 59893
+    },
+    {
+      "icon_id": "5924801",
+      "name": "file-2",
+      "font_class": "tree-file2",
+      "unicode": "e78a",
+      "unicode_decimal": 59274
+    },
+    {
+      "icon_id": "13253789",
+      "name": "file-pdf",
+      "font_class": "file-pdf",
+      "unicode": "e78b",
+      "unicode_decimal": 59275
+    },
+    {
+      "icon_id": "31528483",
+      "name": "line_reduce",
+      "font_class": "line-reduce",
+      "unicode": "e90f",
+      "unicode_decimal": 59663
+    },
+    {
+      "icon_id": "31528484",
+      "name": "line_plus",
+      "font_class": "line-plus",
+      "unicode": "e910",
+      "unicode_decimal": 59664
+    },
+    {
+      "icon_id": "22611483",
+      "name": "对讲机",
+      "font_class": "duijiangji",
+      "unicode": "e784",
+      "unicode_decimal": 59268
+    },
+    {
+      "icon_id": "35220466",
+      "name": "积水事件",
+      "font_class": "water-event",
+      "unicode": "e785",
+      "unicode_decimal": 59269
+    },
+    {
+      "icon_id": "35220468",
+      "name": "历史积水",
+      "font_class": "water-point",
+      "unicode": "e786",
+      "unicode_decimal": 59270
+    },
+    {
+      "icon_id": "35220469",
+      "name": "历史气象",
+      "font_class": "weather",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    },
+    {
+      "icon_id": "4766901",
+      "name": "cloud-upload",
+      "font_class": "media-upload",
+      "unicode": "e7d9",
+      "unicode_decimal": 59353
+    },
+    {
+      "icon_id": "6151215",
+      "name": "location",
+      "font_class": "address-locate",
+      "unicode": "e954",
+      "unicode_decimal": 59732
+    },
+    {
+      "icon_id": "34733028",
+      "name": "类别设置 (4)",
+      "font_class": "a-leibieshezhi4",
+      "unicode": "e77e",
+      "unicode_decimal": 59262
+    },
+    {
+      "icon_id": "34733029",
+      "name": "类别设置 (1)",
+      "font_class": "gas-enterprise",
+      "unicode": "e77f",
+      "unicode_decimal": 59263
+    },
+    {
+      "icon_id": "34733030",
+      "name": "类别设置 (3)",
+      "font_class": "gas-bottle",
+      "unicode": "e780",
+      "unicode_decimal": 59264
+    },
+    {
+      "icon_id": "34733031",
+      "name": "类别设置 (2)",
+      "font_class": "gas-user",
+      "unicode": "e783",
+      "unicode_decimal": 59267
+    },
+    {
+      "icon_id": "34731147",
+      "name": "检查标准备份",
+      "font_class": "gas-one-map",
+      "unicode": "e781",
+      "unicode_decimal": 59265
+    },
+    {
+      "icon_id": "34731148",
+      "name": "类别设置",
+      "font_class": "gas-site",
+      "unicode": "e782",
+      "unicode_decimal": 59266
+    },
+    {
+      "icon_id": "31865002",
+      "name": "批量向下 (1)",
+      "font_class": "arrow-up",
+      "unicode": "e805",
+      "unicode_decimal": 59397
+    },
+    {
+      "icon_id": "31865003",
+      "name": "批量向下",
+      "font_class": "arrow-down",
+      "unicode": "e806",
+      "unicode_decimal": 59398
+    },
+    {
+      "icon_id": "34217178",
+      "name": "设备",
+      "font_class": "equip-table",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "34217179",
+      "name": "隐患管理",
+      "font_class": "danger-manage",
+      "unicode": "e77a",
+      "unicode_decimal": 59258
+    },
+    {
+      "icon_id": "34217180",
+      "name": "报警",
+      "font_class": "alarm-management",
+      "unicode": "e77b",
+      "unicode_decimal": 59259
+    },
+    {
+      "icon_id": "34217181",
+      "name": "地图",
+      "font_class": "equip-map",
+      "unicode": "e77c",
+      "unicode_decimal": 59260
+    },
+    {
+      "icon_id": "34217182",
+      "name": "基础数据",
+      "font_class": "jichushuju",
+      "unicode": "e77d",
+      "unicode_decimal": 59261
+    },
+    {
+      "icon_id": "9405491",
+      "name": "human",
+      "font_class": "human-line",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "4766685",
+      "name": "home",
+      "font_class": "gas-home",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "5387604",
+      "name": "取消全屏",
+      "font_class": "cancel-full-screen",
+      "unicode": "eb10",
+      "unicode_decimal": 60176
+    },
+    {
+      "icon_id": "13243811",
+      "name": "fdoi-circle-arrow-down",
+      "font_class": "circle-down",
+      "unicode": "e778",
+      "unicode_decimal": 59256
+    },
+    {
+      "icon_id": "33906647",
+      "name": "icon-menu-evaluation-type-manage",
+      "font_class": "menu-evaluation-type-manage",
+      "unicode": "e771",
+      "unicode_decimal": 59249
+    },
+    {
+      "icon_id": "33906648",
+      "name": "icon-menu-indicator-manage",
+      "font_class": "menu-indicator-manage",
+      "unicode": "e772",
+      "unicode_decimal": 59250
+    },
+    {
+      "icon_id": "33906649",
+      "name": "icon-menu-eval-obj-manage",
+      "font_class": "menu-eval-obj-manage",
+      "unicode": "e773",
+      "unicode_decimal": 59251
+    },
+    {
+      "icon_id": "33906650",
+      "name": "icon-menu-evaluation-result-manage",
+      "font_class": "menu-evaluation-result-manage",
+      "unicode": "e774",
+      "unicode_decimal": 59252
+    },
+    {
+      "icon_id": "33906651",
+      "name": "icon-menu-evaluation-task-manage",
+      "font_class": "menu-evaluation-task-manage",
+      "unicode": "e775",
+      "unicode_decimal": 59253
+    },
+    {
+      "icon_id": "33906652",
+      "name": "icon-menu-inspectors-manage",
+      "font_class": "menu-inspectors-manage",
+      "unicode": "e776",
+      "unicode_decimal": 59254
+    },
+    {
+      "icon_id": "33906653",
+      "name": "icon-menu-sample-manage",
+      "font_class": "menu-sample-manage",
+      "unicode": "e777",
+      "unicode_decimal": 59255
+    },
+    {
+      "icon_id": "1410382",
+      "name": "info",
+      "font_class": "new-info",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "6986924",
+      "name": "error",
+      "font_class": "new-error",
+      "unicode": "e8d9",
+      "unicode_decimal": 59609
+    },
+    {
+      "icon_id": "7008888",
+      "name": "addition",
+      "font_class": "add-line",
+      "unicode": "e76f",
+      "unicode_decimal": 59247
+    },
+    {
+      "icon_id": "7009038",
+      "name": "warning_fill",
+      "font_class": "new-warning",
+      "unicode": "e76a",
+      "unicode_decimal": 59242
+    },
+    {
+      "icon_id": "1211",
+      "name": "云下载",
+      "font_class": "download1",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "33548549",
+      "name": "mf-patrol-manage",
+      "font_class": "mf-patrol-manage",
+      "unicode": "e76e",
+      "unicode_decimal": 59246
+    },
+    {
+      "icon_id": "33548192",
+      "name": "mf-data-analysis",
+      "font_class": "mf-data-analysis",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    },
+    {
+      "icon_id": "33548194",
+      "name": "mf-patrol-manage-new",
+      "font_class": "mf-patrol-manage-new",
+      "unicode": "e76b",
+      "unicode_decimal": 59243
+    },
+    {
+      "icon_id": "33548195",
+      "name": "mf-cover-manage-sy",
+      "font_class": "mf-cover-manage-sy",
+      "unicode": "e76c",
+      "unicode_decimal": 59244
+    },
+    {
+      "icon_id": "33471520",
+      "name": "form-input ",
+      "font_class": "form-input",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "33471521",
+      "name": "light-sys",
+      "font_class": "light-sys",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "33398841",
+      "name": "提示",
+      "font_class": "tips",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "30833670",
+      "name": "surface_all",
+      "font_class": "surface",
+      "unicode": "e874",
+      "unicode_decimal": 59508
+    },
+    {
+      "icon_id": "9954428",
+      "name": "区域管理",
+      "font_class": "key-area",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "4360963",
+      "name": "车辆管理",
+      "font_class": "vehicle-new",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "33159963",
+      "name": "工作台",
+      "font_class": "workbench",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "18169774",
+      "name": "数据更新,数据库更新",
+      "font_class": "server-update",
+      "unicode": "e943",
+      "unicode_decimal": 59715
+    },
+    {
+      "icon_id": "34000084",
+      "name": "综合管廊-copy",
+      "font_class": "pipe-corridor-copy",
+      "unicode": "ec53",
+      "unicode_decimal": 60499
+    },
+    {
+      "icon_id": "33106995",
+      "name": "综合管廊",
+      "font_class": "pipe-corridor",
+      "unicode": "e760",
+      "unicode_decimal": 59232
+    },
+    {
+      "icon_id": "33106996",
+      "name": "地下人行通道",
+      "font_class": "pedestrian-walkway",
+      "unicode": "e761",
+      "unicode_decimal": 59233
+    },
+    {
+      "icon_id": "32947399",
+      "name": "icon-top-btn",
+      "font_class": "top-btn",
+      "unicode": "e75c",
+      "unicode_decimal": 59228
+    },
+    {
+      "icon_id": "32947400",
+      "name": "icon-down-btn",
+      "font_class": "down-btn",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    },
+    {
+      "icon_id": "32947401",
+      "name": "icon-up-btn",
+      "font_class": "up-btn",
+      "unicode": "e75e",
+      "unicode_decimal": 59230
+    },
+    {
+      "icon_id": "32947402",
+      "name": "icon-bottom-btn",
+      "font_class": "bottom-btn",
+      "unicode": "e75f",
+      "unicode_decimal": 59231
+    },
+    {
+      "icon_id": "32916836",
+      "name": "右箭头",
+      "font_class": "youjiantou",
+      "unicode": "e758",
+      "unicode_decimal": 59224
+    },
+    {
+      "icon_id": "32916837",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e759",
+      "unicode_decimal": 59225
+    },
+    {
+      "icon_id": "32916838",
+      "name": "workbench-2",
+      "font_class": "workbench-2",
+      "unicode": "e75a",
+      "unicode_decimal": 59226
+    },
+    {
+      "icon_id": "32916839",
+      "name": "workbench-1",
+      "font_class": "workbench-1",
+      "unicode": "e75b",
+      "unicode_decimal": 59227
+    },
+    {
+      "icon_id": "32909803",
+      "name": "管理",
+      "font_class": "guanli",
+      "unicode": "e757",
+      "unicode_decimal": 59223
+    },
+    {
+      "icon_id": "7685131",
+      "name": "left",
+      "font_class": "left",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "7685249",
+      "name": "right",
+      "font_class": "right1",
+      "unicode": "e756",
+      "unicode_decimal": 59222
+    },
+    {
+      "icon_id": "21433107",
+      "name": "值班人员",
+      "font_class": "zhibanrenyuan",
+      "unicode": "e754",
+      "unicode_decimal": 59220
+    },
+    {
+      "icon_id": "6856759",
+      "name": "服务管理",
+      "font_class": "fuwuguanli",
+      "unicode": "e752",
+      "unicode_decimal": 59218
+    },
+    {
+      "icon_id": "24167343",
+      "name": "营销管理-订单管理",
+      "font_class": "yingxiaoguanli-dingdanguanli",
+      "unicode": "e753",
+      "unicode_decimal": 59219
+    },
+    {
+      "icon_id": "22611478",
+      "name": "指挥中心",
+      "font_class": "zhihuizhongxin",
+      "unicode": "e751",
+      "unicode_decimal": 59217
+    },
+    {
+      "icon_id": "18610490",
+      "name": "数据转换",
+      "font_class": "shujuzhuanhuan",
+      "unicode": "e750",
+      "unicode_decimal": 59216
+    },
+    {
+      "icon_id": "9559077",
+      "name": "添加人员",
+      "font_class": "ziyuan",
+      "unicode": "e74f",
+      "unicode_decimal": 59215
+    },
+    {
+      "icon_id": "32771798",
+      "name": "plus (1)",
+      "font_class": "upload",
+      "unicode": "e74e",
+      "unicode_decimal": 59214
+    },
+    {
+      "icon_id": "32767406",
+      "name": "plus",
+      "font_class": "locate",
+      "unicode": "e74d",
+      "unicode_decimal": 59213
+    },
+    {
+      "icon_id": "1115042",
+      "name": "记录",
+      "font_class": "dr-patrol-record",
+      "unicode": "e74a",
+      "unicode_decimal": 59210
+    },
+    {
+      "icon_id": "2455951",
+      "name": "待办提醒",
+      "font_class": "dr-patrol-alarm",
+      "unicode": "e74b",
+      "unicode_decimal": 59211
+    },
+    {
+      "icon_id": "20411160",
+      "name": "管线养护",
+      "font_class": "dr-pipe-maintain",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    },
+    {
+      "icon_id": "24941084",
+      "name": "计划",
+      "font_class": "dr-patrol-plan",
+      "unicode": "e74c",
+      "unicode_decimal": 59212
+    },
+    {
+      "icon_id": "32667168",
+      "name": "运行监管",
+      "font_class": "us-operation-supervise",
+      "unicode": "e749",
+      "unicode_decimal": 59209
+    },
+    {
+      "icon_id": "32661600",
+      "name": "supervise-map",
+      "font_class": "us-supervise-map",
+      "unicode": "e742",
+      "unicode_decimal": 59202
+    },
+    {
+      "icon_id": "32661601",
+      "name": "iot-supervise",
+      "font_class": "us-supervise-iot",
+      "unicode": "e743",
+      "unicode_decimal": 59203
+    },
+    {
+      "icon_id": "32661602",
+      "name": "supervise-stat-query",
+      "font_class": "us-supervise-stat-query",
+      "unicode": "e744",
+      "unicode_decimal": 59204
+    },
+    {
+      "icon_id": "32661603",
+      "name": "supervise-workbence",
+      "font_class": "us-supervise-workbench",
+      "unicode": "e745",
+      "unicode_decimal": 59205
+    },
+    {
+      "icon_id": "32661604",
+      "name": "supervise-record",
+      "font_class": "us-supervise-record",
+      "unicode": "e746",
+      "unicode_decimal": 59206
+    },
+    {
+      "icon_id": "32661605",
+      "name": "risk-list",
+      "font_class": "us-supervise-risk-list",
+      "unicode": "e747",
+      "unicode_decimal": 59207
+    },
+    {
+      "icon_id": "32661606",
+      "name": "supervise-alarm-manage",
+      "font_class": "us-supervise-alarm",
+      "unicode": "e748",
+      "unicode_decimal": 59208
+    },
+    {
+      "icon_id": "32565504",
+      "name": "燃气器具",
+      "font_class": "ranqiqiju",
+      "unicode": "e741",
+      "unicode_decimal": 59201
+    },
+    {
+      "icon_id": "32449613",
+      "name": "检查标准 (3)",
+      "font_class": "a-jianchabiaozhun3",
+      "unicode": "e6c8",
+      "unicode_decimal": 59080
+    },
+    {
+      "icon_id": "32305308",
+      "name": "gas-menu-icon-site",
+      "font_class": "gas-site1",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "32305309",
+      "name": "gas-menu-icon-onemap",
+      "font_class": "gas-one-map1",
+      "unicode": "e73d",
+      "unicode_decimal": 59197
+    },
+    {
+      "icon_id": "32305310",
+      "name": "gas-menu-icon-enterprise",
+      "font_class": "gas-enterprise1",
+      "unicode": "e73e",
+      "unicode_decimal": 59198
+    },
+    {
+      "icon_id": "32305311",
+      "name": "gas-menu-icon-user",
+      "font_class": "gas-user1",
+      "unicode": "e73f",
+      "unicode_decimal": 59199
+    },
+    {
+      "icon_id": "32305312",
+      "name": "gas-menu-icon-bottle",
+      "font_class": "gas-bottle1",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "8802640",
+      "name": "置顶",
+      "font_class": "top",
+      "unicode": "e73b",
+      "unicode_decimal": 59195
+    },
+    {
+      "icon_id": "32038775",
+      "name": "置顶-copy",
+      "font_class": "unpin",
+      "unicode": "ec49",
+      "unicode_decimal": 60489
+    },
+    {
+      "icon_id": "31972824",
+      "name": "surface-folder",
+      "font_class": "surface-folder",
+      "unicode": "e73a",
+      "unicode_decimal": 59194
+    },
+    {
+      "icon_id": "883988",
+      "name": "培训宣传",
+      "font_class": "publicity-education",
+      "unicode": "e739",
+      "unicode_decimal": 59193
+    },
+    {
+      "icon_id": "31875122",
+      "name": "gas-bottle-analysis-menu",
+      "font_class": "gas-bottle-analysis-menu",
+      "unicode": "e738",
+      "unicode_decimal": 59192
+    },
+    {
+      "icon_id": "31849742",
+      "name": "light-plan",
+      "font_class": "light-plan",
+      "unicode": "e736",
+      "unicode_decimal": 59190
+    },
+    {
+      "icon_id": "31849743",
+      "name": "terminal-control",
+      "font_class": "terminal-control",
+      "unicode": "e737",
+      "unicode_decimal": 59191
+    },
+    {
+      "icon_id": "32783138",
+      "name": "汛情总结-copy",
+      "font_class": "info-query",
+      "unicode": "ec4a",
+      "unicode_decimal": 60490
+    },
+    {
+      "icon_id": "31800701",
+      "name": "应急预案",
+      "font_class": "emergency-plan",
+      "unicode": "e731",
+      "unicode_decimal": 59185
+    },
+    {
+      "icon_id": "31800739",
+      "name": "统计分析",
+      "font_class": "statistics-analysis",
+      "unicode": "e732",
+      "unicode_decimal": 59186
+    },
+    {
+      "icon_id": "31800740",
+      "name": "数据资源",
+      "font_class": "data-resource",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "31800741",
+      "name": "研判分析",
+      "font_class": "analysis1",
+      "unicode": "e734",
+      "unicode_decimal": 59188
+    },
+    {
+      "icon_id": "31800742",
+      "name": "汛情总结",
+      "font_class": "summary",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "31800669",
+      "name": "防汛一张图",
+      "font_class": "map1",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "31800696",
+      "name": "监测预警",
+      "font_class": "alarm",
+      "unicode": "e72f",
+      "unicode_decimal": 59183
+    },
+    {
+      "icon_id": "31800699",
+      "name": "指挥调度",
+      "font_class": "command",
+      "unicode": "e730",
+      "unicode_decimal": 59184
+    },
+    {
+      "icon_id": "4425897",
+      "name": "循环",
+      "font_class": "refresh1",
+      "unicode": "e7b1",
+      "unicode_decimal": 59313
+    },
+    {
+      "icon_id": "31741923",
+      "name": "gas-basic-data",
+      "font_class": "gas-basic-data",
+      "unicode": "e72d",
+      "unicode_decimal": 59181
+    },
+    {
+      "icon_id": "31741910",
+      "name": "gas-qiju",
+      "font_class": "gas-qiju",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "31741911",
+      "name": "gas-service",
+      "font_class": "gas-service",
+      "unicode": "e721",
+      "unicode_decimal": 59169
+    },
+    {
+      "icon_id": "31741912",
+      "name": "gas-normal-check",
+      "font_class": "gas-normal-check",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "31741913",
+      "name": "gas-project",
+      "font_class": "gas-project",
+      "unicode": "e723",
+      "unicode_decimal": 59171
+    },
+    {
+      "icon_id": "31741914",
+      "name": "bottles-company",
+      "font_class": "bottles-company",
+      "unicode": "e724",
+      "unicode_decimal": 59172
+    },
+    {
+      "icon_id": "31741915",
+      "name": "gas-pipline-company",
+      "font_class": "gas-pipline-company",
+      "unicode": "e725",
+      "unicode_decimal": 59173
+    },
+    {
+      "icon_id": "31741916",
+      "name": "gas-emergency",
+      "font_class": "gas-emergency",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "31741917",
+      "name": "gas-assess",
+      "font_class": "gas-assess",
+      "unicode": "e727",
+      "unicode_decimal": 59175
+    },
+    {
+      "icon_id": "31741918",
+      "name": "gas-vehicle",
+      "font_class": "gas-vehicle",
+      "unicode": "e728",
+      "unicode_decimal": 59176
+    },
+    {
+      "icon_id": "31741919",
+      "name": "gas-danger",
+      "font_class": "gas-danger",
+      "unicode": "e729",
+      "unicode_decimal": 59177
+    },
+    {
+      "icon_id": "31741921",
+      "name": "gas-monitor",
+      "font_class": "gas-monitor",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    },
+    {
+      "icon_id": "31741922",
+      "name": "gas-onemap",
+      "font_class": "gas-onemap",
+      "unicode": "e72b",
+      "unicode_decimal": 59179
+    },
+    {
+      "icon_id": "32871621",
+      "name": "mfMainInspection-copy",
+      "font_class": "edit-file-noStyle",
+      "unicode": "ec4d",
+      "unicode_decimal": 60493
+    },
+    {
+      "icon_id": "32871649",
+      "name": "mf-law-disposal-copy",
+      "font_class": "law-disposal-noStyle",
+      "unicode": "ec4e",
+      "unicode_decimal": 60494
+    },
+    {
+      "icon_id": "31320429",
+      "name": "mf-inspection",
+      "font_class": "mf-inspection",
+      "unicode": "e717",
+      "unicode_decimal": 59159
+    },
+    {
+      "icon_id": "31320430",
+      "name": "mf-street-furniture",
+      "font_class": "mf-street-furniture",
+      "unicode": "e718",
+      "unicode_decimal": 59160
+    },
+    {
+      "icon_id": "31320431",
+      "name": "mfMainMining",
+      "font_class": "mfMainMining",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "31320433",
+      "name": "mf-law-disposal",
+      "font_class": "mf-law-disposal",
+      "unicode": "e71a",
+      "unicode_decimal": 59162
+    },
+    {
+      "icon_id": "31320670",
+      "name": "mfPublicService",
+      "font_class": "mfPublicService",
+      "unicode": "e71b",
+      "unicode_decimal": 59163
+    },
+    {
+      "icon_id": "31320671",
+      "name": "mfMainInspection",
+      "font_class": "mfMainInspection",
+      "unicode": "e71c",
+      "unicode_decimal": 59164
+    },
+    {
+      "icon_id": "31320672",
+      "name": "mfvehicleManagement",
+      "font_class": "mfvehicleManagement",
+      "unicode": "e71d",
+      "unicode_decimal": 59165
+    },
+    {
+      "icon_id": "31321832",
+      "name": "mfMiningAnalysis",
+      "font_class": "mfMiningAnalysis",
+      "unicode": "e71e",
+      "unicode_decimal": 59166
+    },
+    {
+      "icon_id": "31352822",
+      "name": "市政大屏",
+      "font_class": "shizhengdaping",
+      "unicode": "e71f",
+      "unicode_decimal": 59167
+    },
+    {
+      "icon_id": "31177887",
+      "name": "62_paibanguanli",
+      "font_class": "mfschedule2",
+      "unicode": "e715",
+      "unicode_decimal": 59157
+    },
+    {
+      "icon_id": "31177888",
+      "name": "paibanshuju",
+      "font_class": "mfschedule",
+      "unicode": "e716",
+      "unicode_decimal": 59158
+    },
+    {
+      "icon_id": "6626202",
+      "name": "退出",
+      "font_class": "left-hide",
+      "unicode": "e714",
+      "unicode_decimal": 59156
+    },
+    {
+      "icon_id": "30931223",
+      "name": "退出-copy",
+      "font_class": "right-hide",
+      "unicode": "ec47",
+      "unicode_decimal": 60487
+    },
+    {
+      "icon_id": "30584236",
+      "name": "icon-emergency-dispatch",
+      "font_class": "emergency-dispatch",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "30584237",
+      "name": "icon-danger-manage",
+      "font_class": "danger-manage1",
+      "unicode": "e712",
+      "unicode_decimal": 59154
+    },
+    {
+      "icon_id": "30584238",
+      "name": "icon-mf-project-charge",
+      "font_class": "mf-project-charge",
+      "unicode": "e713",
+      "unicode_decimal": 59155
+    },
+    {
+      "icon_id": "5900853",
+      "name": "发布色块",
+      "font_class": "fabusekuai",
+      "unicode": "ec46",
+      "unicode_decimal": 60486
+    },
+    {
+      "icon_id": "28782404",
+      "name": "生成预览",
+      "font_class": "shengchengyulan",
+      "unicode": "e710",
+      "unicode_decimal": 59152
+    },
+    {
+      "icon_id": "2958958",
+      "name": "指挥调度",
+      "font_class": "zhihuitiaodu",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "30229294",
+      "name": "facility-manage",
+      "font_class": "facility-manage",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "30115635",
+      "name": "dr-monitor",
+      "font_class": "dr-monitor",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    },
+    {
+      "icon_id": "30115636",
+      "name": "dr-flood",
+      "font_class": "dr-flood",
+      "unicode": "e6ff",
+      "unicode_decimal": 59135
+    },
+    {
+      "icon_id": "8588809",
+      "name": "文件夹",
+      "font_class": "administration-basic",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "30089629",
+      "name": "检查标准备份",
+      "font_class": "jianchabiaozhunbeifen",
+      "unicode": "e70d",
+      "unicode_decimal": 59149
+    },
+    {
+      "icon_id": "30089537",
+      "name": "工程项目地图",
+      "font_class": "administration-map",
+      "unicode": "e701",
+      "unicode_decimal": 59137
+    },
+    {
+      "icon_id": "30089538",
+      "name": "就业人员信息",
+      "font_class": "administration-human",
+      "unicode": "e702",
+      "unicode_decimal": 59138
+    },
+    {
+      "icon_id": "30089539",
+      "name": "实名认证",
+      "font_class": "shimingrenzheng",
+      "unicode": "e703",
+      "unicode_decimal": 59139
+    },
+    {
+      "icon_id": "30089540",
+      "name": "消息通知",
+      "font_class": "administration-notice",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "30089541",
+      "name": "工程项目管理",
+      "font_class": "administration-project",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "30089542",
+      "name": "岗位契约",
+      "font_class": "gangweiqiyue",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    },
+    {
+      "icon_id": "30089543",
+      "name": "工程项目统计",
+      "font_class": "gongchengxiangmutongji",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "30089544",
+      "name": "工程单位",
+      "font_class": "administration-unit",
+      "unicode": "e70a",
+      "unicode_decimal": 59146
+    },
+    {
+      "icon_id": "30089545",
+      "name": "监督管理记录",
+      "font_class": "administration-supervision",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "30089546",
+      "name": "招投标项目管理",
+      "font_class": "administration-bid",
+      "unicode": "e70c",
+      "unicode_decimal": 59148
+    },
+    {
+      "icon_id": "30076344",
+      "name": "monitor-online",
+      "font_class": "zaixianjiance",
+      "unicode": "e700",
+      "unicode_decimal": 59136
+    },
+    {
+      "icon_id": "14765644",
+      "name": "alarm",
+      "font_class": "alarm-management2",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "30052773",
+      "name": "video-monitor",
+      "font_class": "video-monitor1",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "30052751",
+      "name": "equip-table",
+      "font_class": "equip-table1",
+      "unicode": "e6f7",
+      "unicode_decimal": 59127
+    },
+    {
+      "icon_id": "30052752",
+      "name": "equip-bands",
+      "font_class": "equip-bands",
+      "unicode": "e6f8",
+      "unicode_decimal": 59128
+    },
+    {
+      "icon_id": "30115524",
+      "name": "mfcasemanagement",
+      "font_class": "monitor-detail",
+      "unicode": "eb81",
+      "unicode_decimal": 60289
+    },
+    {
+      "icon_id": "26604190",
+      "name": "mfevaluation",
+      "font_class": "mfevaluation",
+      "unicode": "e6da",
+      "unicode_decimal": 59098
+    },
+    {
+      "icon_id": "26604191",
+      "name": "mffacilities",
+      "font_class": "mffacilities",
+      "unicode": "e6db",
+      "unicode_decimal": 59099
+    },
+    {
+      "icon_id": "26604192",
+      "name": "mfMaintain",
+      "font_class": "mfMaintain",
+      "unicode": "e6dc",
+      "unicode_decimal": 59100
+    },
+    {
+      "icon_id": "26604193",
+      "name": "mffacilities-new",
+      "font_class": "mffacilities-new",
+      "unicode": "e6dd",
+      "unicode_decimal": 59101
+    },
+    {
+      "icon_id": "26604194",
+      "name": "mfinspection",
+      "font_class": "mfinspection",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "26604195",
+      "name": "mfonlinemonitor",
+      "font_class": "mfonlinemonitor",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "26604196",
+      "name": "mfonlinemonitor-new",
+      "font_class": "mfonlinemonitor-new",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "26604197",
+      "name": "mfoverview",
+      "font_class": "mfoverview",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "31879056",
+      "name": "zhld-copy",
+      "font_class": "mf-light-new",
+      "unicode": "ec48",
+      "unicode_decimal": 60488
+    },
+    {
+      "icon_id": "26604198",
+      "name": "mfSyntheticEvaluation",
+      "font_class": "mfSyntheticEvaluation",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "26604199",
+      "name": "mftaskmanage",
+      "font_class": "mftaskmanage",
+      "unicode": "e6e3",
+      "unicode_decimal": 59107
+    },
+    {
+      "icon_id": "26604202",
+      "name": "roadBridge",
+      "font_class": "roadBridge",
+      "unicode": "e6e4",
+      "unicode_decimal": 59108
+    },
+    {
+      "icon_id": "26604203",
+      "name": "Rectangle75",
+      "font_class": "Rectangle75",
+      "unicode": "e6e5",
+      "unicode_decimal": 59109
+    },
+    {
+      "icon_id": "26604204",
+      "name": "Rectangle77",
+      "font_class": "Rectangle77",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "26604205",
+      "name": "zcgl",
+      "font_class": "zcgl",
+      "unicode": "e6e7",
+      "unicode_decimal": 59111
+    },
+    {
+      "icon_id": "26604206",
+      "name": "zhjg",
+      "font_class": "zhjg",
+      "unicode": "e6e8",
+      "unicode_decimal": 59112
+    },
+    {
+      "icon_id": "26604212",
+      "name": "zhld",
+      "font_class": "zhld",
+      "unicode": "e6e9",
+      "unicode_decimal": 59113
+    },
+    {
+      "icon_id": "26604219",
+      "name": "mfanalysis",
+      "font_class": "mfanalysis",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "26604220",
+      "name": "lighting",
+      "font_class": "lighting",
+      "unicode": "e6eb",
+      "unicode_decimal": 59115
+    },
+    {
+      "icon_id": "26604221",
+      "name": "mfapproval",
+      "font_class": "mfapproval",
+      "unicode": "e6ec",
+      "unicode_decimal": 59116
+    },
+    {
+      "icon_id": "26604222",
+      "name": "mf-approvalManage",
+      "font_class": "mf-approvalManage",
+      "unicode": "e6ed",
+      "unicode_decimal": 59117
+    },
+    {
+      "icon_id": "26604223",
+      "name": "mfcasemanagement",
+      "font_class": "mfcasemanagement",
+      "unicode": "e6ee",
+      "unicode_decimal": 59118
+    },
+    {
+      "icon_id": "26604224",
+      "name": "mfemergencymanager",
+      "font_class": "mfemergencymanager",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "26604225",
+      "name": "mfenginearchives",
+      "font_class": "mfenginearchives",
+      "unicode": "e6f0",
+      "unicode_decimal": 59120
+    },
+    {
+      "icon_id": "26604516",
+      "name": "coverSupervision-new",
+      "font_class": "coverSupervision-new",
+      "unicode": "e6f1",
+      "unicode_decimal": 59121
+    },
+    {
+      "icon_id": "26604519",
+      "name": "facbuilder",
+      "font_class": "facbuilder",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    },
+    {
+      "icon_id": "26604522",
+      "name": "gasSupervision",
+      "font_class": "gasSupervision",
+      "unicode": "e6f3",
+      "unicode_decimal": 59123
+    },
+    {
+      "icon_id": "26604527",
+      "name": "heatSupervision",
+      "font_class": "heatSupervision",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
+    },
+    {
+      "icon_id": "26607203",
+      "name": "mfoverview",
+      "font_class": "mfoverview1",
+      "unicode": "e6f5",
+      "unicode_decimal": 59125
+    },
+    {
+      "icon_id": "29062155",
+      "name": "floodcontrol",
+      "font_class": "floodcontrol",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    },
+    {
+      "icon_id": "30003890",
+      "name": "right",
+      "font_class": "right",
+      "unicode": "e6d6",
+      "unicode_decimal": 59094
+    },
+    {
+      "icon_id": "30003891",
+      "name": "menumore",
+      "font_class": "menumore1",
+      "unicode": "e6d7",
+      "unicode_decimal": 59095
+    },
+    {
+      "icon_id": "30003892",
+      "name": "menushow",
+      "font_class": "menushow1",
+      "unicode": "e6d8",
+      "unicode_decimal": 59096
+    },
+    {
+      "icon_id": "30003893",
+      "name": "menuhide",
+      "font_class": "menuhide1",
+      "unicode": "e6d9",
+      "unicode_decimal": 59097
+    },
+    {
+      "icon_id": "2076266",
+      "name": "扫一扫",
+      "font_class": "scan-code",
+      "unicode": "e891",
+      "unicode_decimal": 59537
+    },
+    {
+      "icon_id": "26699",
+      "name": "二维码",
+      "font_class": "qr-code",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "29832871",
+      "name": "human",
+      "font_class": "humancenter",
+      "unicode": "e6d3",
+      "unicode_decimal": 59091
+    },
+    {
+      "icon_id": "29832872",
+      "name": "exit",
+      "font_class": "exit",
+      "unicode": "e6d4",
+      "unicode_decimal": 59092
+    },
+    {
+      "icon_id": "29809020",
+      "name": "upload-file",
+      "font_class": "upload-file",
+      "unicode": "e6d2",
+      "unicode_decimal": 59090
+    },
+    {
+      "icon_id": "12472902",
+      "name": "面雨量",
+      "font_class": "mianyuliang",
+      "unicode": "e6d1",
+      "unicode_decimal": 59089
+    },
+    {
+      "icon_id": "32871683",
+      "name": "面雨量-copy",
+      "font_class": "water-noStyle",
+      "unicode": "ec50",
+      "unicode_decimal": 60496
+    },
+    {
+      "icon_id": "26452040",
+      "name": "查询",
+      "font_class": "high-search",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "5387883",
+      "name": "品类减少_o",
+      "font_class": "subtraction",
+      "unicode": "eb7e",
+      "unicode_decimal": 60286
+    },
+    {
+      "icon_id": "5387886",
+      "name": "品类增加_o",
+      "font_class": "addition",
+      "unicode": "eb7f",
+      "unicode_decimal": 60287
+    },
+    {
+      "icon_id": "27196624",
+      "name": "排放口",
+      "font_class": "drain-port",
+      "unicode": "e7cf",
+      "unicode_decimal": 59343
+    },
+    {
+      "icon_id": "29338184",
+      "name": "管理态势监察",
+      "font_class": "manage-monitor",
+      "unicode": "e6c5",
+      "unicode_decimal": 59077
+    },
+    {
+      "icon_id": "29338185",
+      "name": "最新态势分析",
+      "font_class": "operate-situation",
+      "unicode": "e6c6",
+      "unicode_decimal": 59078
+    },
+    {
+      "icon_id": "29338186",
+      "name": "应急调度",
+      "font_class": "emergency-schedule",
+      "unicode": "e6c7",
+      "unicode_decimal": 59079
+    },
+    {
+      "icon_id": "29338188",
+      "name": "信息公示",
+      "font_class": "info-publicity",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "29338189",
+      "name": "管线安全防护",
+      "font_class": "under-pipe",
+      "unicode": "e6cb",
+      "unicode_decimal": 59083
+    },
+    {
+      "icon_id": "29338190",
+      "name": "形状 2",
+      "font_class": "config-manage",
+      "unicode": "e6cc",
+      "unicode_decimal": 59084
+    },
+    {
+      "icon_id": "29338191",
+      "name": "综合分析",
+      "font_class": "stat-analysis",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "29338192",
+      "name": "监管",
+      "font_class": "operate-monitor",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "29235418",
+      "name": "mf-public-rate",
+      "font_class": "cover-statistical-analysis",
+      "unicode": "e6bd",
+      "unicode_decimal": 59069
+    },
+    {
+      "icon_id": "29235419",
+      "name": "mf-public-notice",
+      "font_class": "mf-public-notice",
+      "unicode": "e6c0",
+      "unicode_decimal": 59072
+    },
+    {
+      "icon_id": "29235420",
+      "name": "mf-check-service",
+      "font_class": "mf-check-service",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    },
+    {
+      "icon_id": "29235421",
+      "name": "mf-public-knowledge",
+      "font_class": "mf-public-knowledge",
+      "unicode": "e6c2",
+      "unicode_decimal": 59074
+    },
+    {
+      "icon_id": "29235422",
+      "name": "mf-public-repair",
+      "font_class": "mf-public-repair",
+      "unicode": "e6c3",
+      "unicode_decimal": 59075
+    },
+    {
+      "icon_id": "30228806",
+      "name": "mf-public-rate",
+      "font_class": "mf-public-rate",
+      "unicode": "eb84",
+      "unicode_decimal": 60292
+    },
+    {
+      "icon_id": "28321317",
+      "name": "work-bench",
+      "font_class": "work-bench",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    },
+    {
+      "icon_id": "28321318",
+      "name": "person-center",
+      "font_class": "person-center",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "28321319",
+      "name": "human-manage",
+      "font_class": "human-manage",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "28321320",
+      "name": "statistic-analy",
+      "font_class": "statistic-analy",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "28321321",
+      "name": "pro-publish",
+      "font_class": "pro-publish",
+      "unicode": "e6b3",
+      "unicode_decimal": 59059
+    },
+    {
+      "icon_id": "28321322",
+      "name": "overdue",
+      "font_class": "overdue1",
+      "unicode": "e6b5",
+      "unicode_decimal": 59061
+    },
+    {
+      "icon_id": "28321323",
+      "name": "pro-dock",
+      "font_class": "pro-dock",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    },
+    {
+      "icon_id": "28321324",
+      "name": "zixun-center",
+      "font_class": "zixun-center",
+      "unicode": "e6b7",
+      "unicode_decimal": 59063
+    },
+    {
+      "icon_id": "6834846",
+      "name": "文件-文件撤回",
+      "font_class": "wj-wjch",
+      "unicode": "e76d",
+      "unicode_decimal": 59245
+    },
+    {
+      "icon_id": "28105797",
+      "name": "icon-queren",
+      "font_class": "icon-queren",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "1249063",
+      "name": "密码",
+      "font_class": "password",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "12990778",
+      "name": "检查:确认-multiple-块",
+      "font_class": "confirm",
+      "unicode": "e8c5",
+      "unicode_decimal": 59589
+    },
+    {
+      "icon_id": "22849842",
+      "name": "操作-催办",
+      "font_class": "urge",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "793926",
+      "name": "et-more3",
+      "font_class": "menumore",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "5771810",
+      "name": "设施管理",
+      "font_class": "drfacilitymannager",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "8113738",
+      "name": "map",
+      "font_class": "map",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "8113740",
+      "name": "file",
+      "font_class": "file1",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "8113741",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "20567652",
+      "name": "大数据分析平台",
+      "font_class": "bigdata",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "32871575",
+      "name": "map-copy",
+      "font_class": "map-noStyle",
+      "unicode": "ec4b",
+      "unicode_decimal": 60491
+    },
+    {
+      "icon_id": "32871708",
+      "name": "大数据分析平台-copy",
+      "font_class": "bigdata-noStyle",
+      "unicode": "ec51",
+      "unicode_decimal": 60497
+    },
+    {
+      "icon_id": "32871600",
+      "name": "file-copy",
+      "font_class": "file-noStyle",
+      "unicode": "ec4c",
+      "unicode_decimal": 60492
+    },
+    {
+      "icon_id": "9584328",
+      "name": "5-风险防控",
+      "font_class": "hazard",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "27332825",
+      "name": "隐患分布",
+      "font_class": "hazard-map",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "27332746",
+      "name": "隐患管理",
+      "font_class": "hazard-manage-child",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "27332695",
+      "name": "检查标准",
+      "font_class": "hazard-analyze",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "27332213",
+      "name": "隐患信息管理",
+      "font_class": "hazard-manage",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "27332138",
+      "name": "安全事故统计分析",
+      "font_class": "inciden-analyze",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "27332079",
+      "name": "us-safe-manage",
+      "font_class": "indicent-manage",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "25892851",
+      "name": "视频监控",
+      "font_class": "video-monitor2",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "32871672",
+      "name": "视频监控-copy",
+      "font_class": "monitor-noStyle",
+      "unicode": "ec4f",
+      "unicode_decimal": 60495
+    },
+    {
+      "icon_id": "25667975",
+      "name": "液化石油气备份",
+      "font_class": "gas-station",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "25667976",
+      "name": "加气站备份",
+      "font_class": "gas-add",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "25667973",
+      "name": "形状结合备份 4",
+      "font_class": "gas-pipe",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "25667974",
+      "name": "路径",
+      "font_class": "gas",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "2337281",
+      "name": "交换机组",
+      "font_class": "crew",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "25627499",
+      "name": "ls-maintenance",
+      "font_class": "ls-maintenance",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "25627414",
+      "name": "ls-insect",
+      "font_class": "ls-insect",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "25627397",
+      "name": "ls-plant",
+      "font_class": "ls-plant",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "13039468",
+      "name": "供热站",
+      "font_class": "heat-station",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "3640205",
+      "name": "园区面积",
+      "font_class": "area",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "7309269",
+      "name": "企业",
+      "font_class": "company",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "25714176",
+      "name": "换热站监控",
+      "font_class": "exchange-station",
+      "unicode": "e87c",
+      "unicode_decimal": 59516
+    },
+    {
+      "icon_id": "20853328",
+      "name": "短信设置",
+      "font_class": "message",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "24037114",
+      "name": "import-data",
+      "font_class": "daoru",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "23919505",
+      "name": "轨迹",
+      "font_class": "patrol-trace",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "19451563",
+      "name": "电话",
+      "font_class": "phone",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "20046354",
+      "name": "上报",
+      "font_class": "danger-report",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "23770173",
+      "name": "基础数据",
+      "font_class": "manage",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "30115493",
+      "name": "基础数据",
+      "font_class": "equip-config",
+      "unicode": "eb80",
+      "unicode_decimal": 60288
+    },
+    {
+      "icon_id": "23770146",
+      "name": "防汛资源",
+      "font_class": "flood",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "9356950",
+      "name": "概览",
+      "font_class": "landscaping-main",
+      "unicode": "e6d0",
+      "unicode_decimal": 59088
+    },
+    {
+      "icon_id": "10829729",
+      "name": "决策分析",
+      "font_class": "decision-anaysis",
+      "unicode": "e6ca",
+      "unicode_decimal": 59082
+    },
+    {
+      "icon_id": "21181312",
+      "name": "指标查询",
+      "font_class": "indicator-anaysis",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    },
+    {
+      "icon_id": "22433162",
+      "name": "绿地管理",
+      "font_class": "greening-management",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "23613636",
+      "name": "classification-query",
+      "font_class": "classification-query",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "23613639",
+      "name": "case-dispose",
+      "font_class": "case-dispose1",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "23613641",
+      "name": "data-import",
+      "font_class": "data-import",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "23613644",
+      "name": "decision-auxiliary",
+      "font_class": "decision-auxiliary",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "23613646",
+      "name": "customize-query",
+      "font_class": "customize-query",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "23613647",
+      "name": "decision-buffer",
+      "font_class": "decision-buffer",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "23613650",
+      "name": "decision-plant",
+      "font_class": "decision-plant",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "23613653",
+      "name": "decision-indicator",
+      "font_class": "decision-indicator",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "23613657",
+      "name": "imfacility-manage",
+      "font_class": "imfacility-manage1",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "23613658",
+      "name": "document-file",
+      "font_class": "document-file1",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "23613659",
+      "name": "screen",
+      "font_class": "screen1",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "23613661",
+      "name": "greenland-verify",
+      "font_class": "greenland-verify",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "23613664",
+      "name": "property-query",
+      "font_class": "property-query",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "23613666",
+      "name": "protect-manage",
+      "font_class": "protect-manage1",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "23613669",
+      "name": "greenland-management",
+      "font_class": "greenland-management",
+      "unicode": "e6bc",
+      "unicode_decimal": 59068
+    },
+    {
+      "icon_id": "23613671",
+      "name": "protect-evaluate",
+      "font_class": "protect-evaluate1",
+      "unicode": "e6be",
+      "unicode_decimal": 59070
+    },
+    {
+      "icon_id": "23613672",
+      "name": "stat-sheet",
+      "font_class": "stat-sheet",
+      "unicode": "e6bf",
+      "unicode_decimal": 59071
+    },
+    {
+      "icon_id": "23613688",
+      "name": "stat-query",
+      "font_class": "stat-query",
+      "unicode": "e6c4",
+      "unicode_decimal": 59076
+    },
+    {
+      "icon_id": "23566529",
+      "name": "工情信息 (1)",
+      "font_class": "supply",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "23566530",
+      "name": "水雨情 (1)",
+      "font_class": "site",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "23566531",
+      "name": "工情信息",
+      "font_class": "working",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "23566532",
+      "name": "水雨情",
+      "font_class": "water-rain",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "23566533",
+      "name": "视频 (1)",
+      "font_class": "vehicle",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "23566534",
+      "name": "视频",
+      "font_class": "video-monitor",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "23566535",
+      "name": "内涝 (1)",
+      "font_class": "human1",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "23566536",
+      "name": "责任区 (1)",
+      "font_class": "danger-monitor",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "23566537",
+      "name": "责任区",
+      "font_class": "duty-zone",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "23566538",
+      "name": "内涝",
+      "font_class": "water-logging",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "15711863",
+      "name": "向上",
+      "font_class": "down",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "19725053",
+      "name": "向上",
+      "font_class": "up",
+      "unicode": "e87b",
+      "unicode_decimal": 59515
+    },
+    {
+      "icon_id": "8233788",
+      "name": "勾",
+      "font_class": "save1",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "23165669",
+      "name": "检查标准备份",
+      "font_class": "water-quality",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "13309493",
+      "name": "20错误方框（面）",
+      "font_class": "delete1",
+      "unicode": "e704",
+      "unicode_decimal": 59140
+    },
+    {
+      "icon_id": "22994391",
+      "name": "基础数据配置",
+      "font_class": "config",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "22994392",
+      "name": "排水户预审",
+      "font_class": "examination",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "22919875",
+      "name": "自查任务",
+      "font_class": "file-regulations",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "22205803",
+      "name": "patrol-plan",
+      "font_class": "patrol-plan",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "22205804",
+      "name": "patrol-alarm",
+      "font_class": "patrol-alarm",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "22205805",
+      "name": "patrol-map",
+      "font_class": "patrol-map",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "22205806",
+      "name": "patrol-record",
+      "font_class": "patrol-record",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "22205807",
+      "name": "patrol-cover-rate",
+      "font_class": "patrol-cover-rate",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "22183557",
+      "name": "evaluation-examine-manage",
+      "font_class": "evaluation-examine-manage",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    },
+    {
+      "icon_id": "22183558",
+      "name": "evaluation-obj-manage",
+      "font_class": "evaluation-obj-manage",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "22183559",
+      "name": "evaluation-plan-manage",
+      "font_class": "evaluation-plan-manage",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "22183560",
+      "name": "indicator-manage",
+      "font_class": "indicator-manage",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "22183561",
+      "name": "location",
+      "font_class": "location1",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "22183562",
+      "name": "evaluation-result-manage",
+      "font_class": "evaluation-result-manage",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "22183563",
+      "name": "sample-manage",
+      "font_class": "sample-manage",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "22183564",
+      "name": "locationInCell",
+      "font_class": "locationInCell",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "22183565",
+      "name": "evaluation-task-manage",
+      "font_class": "evaluation-task-manage",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "22183566",
+      "name": "inspectors-manage",
+      "font_class": "inspectors-manage",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "22183567",
+      "name": "evaluation-type-manage",
+      "font_class": "evaluation-type-manage",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "30116045",
+      "name": "facility-position",
+      "font_class": "equip-map-old",
+      "unicode": "eb82",
+      "unicode_decimal": 60290
+    },
+    {
+      "icon_id": "22182916",
+      "name": "patrol-manage-config",
+      "font_class": "patrol-manage-config",
+      "unicode": "e653",
+      "unicode_decimal": 58963
+    },
+    {
+      "icon_id": "22182917",
+      "name": "protect-evaluate",
+      "font_class": "protect-evaluate",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "22182918",
+      "name": "run-report",
+      "font_class": "run-report",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "22182919",
+      "name": "protect-manage",
+      "font_class": "protect-manage",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "22182920",
+      "name": "screen",
+      "font_class": "screen",
+      "unicode": "e657",
+      "unicode_decimal": 58967
+    },
+    {
+      "icon_id": "22182921",
+      "name": "patrol-manage",
+      "font_class": "patrol-manage",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "22182923",
+      "name": "approval-record",
+      "font_class": "approval-record",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "22182924",
+      "name": "case-dispose",
+      "font_class": "case-dispose",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "22182925",
+      "name": "alarm-management",
+      "font_class": "alarm-management1",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "22182928",
+      "name": "facility-position",
+      "font_class": "facility-position1",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "22182932",
+      "name": "facility-query",
+      "font_class": "facility-query1",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "22182933",
+      "name": "document-file",
+      "font_class": "document-file",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "30228757",
+      "name": "screen",
+      "font_class": "cover-digital-screen",
+      "unicode": "eb83",
+      "unicode_decimal": 60291
+    },
+    {
+      "icon_id": "22160364",
+      "name": "imfacility-manage",
+      "font_class": "imfacility-manage",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "22160365",
+      "name": "facility-edit",
+      "font_class": "facility-edit",
+      "unicode": "e64e",
+      "unicode_decimal": 58958
+    },
+    {
+      "icon_id": "22160366",
+      "name": "facility-position",
+      "font_class": "facility-position",
+      "unicode": "e64f",
+      "unicode_decimal": 58959
+    },
+    {
+      "icon_id": "22160367",
+      "name": "facility-stat",
+      "font_class": "facility-stat",
+      "unicode": "e650",
+      "unicode_decimal": 58960
+    },
+    {
+      "icon_id": "22160368",
+      "name": "facility-query",
+      "font_class": "facility-query",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "22141523",
+      "name": "气象监测",
+      "font_class": "meteorological",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "22141524",
+      "name": "设备配置",
+      "font_class": "equipconfig",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "13994931",
+      "name": "方框",
+      "font_class": "grid",
+      "unicode": "e64c",
+      "unicode_decimal": 58956
+    },
+    {
+      "icon_id": "11975952",
+      "name": "表格",
+      "font_class": "nine-grid",
+      "unicode": "e64a",
+      "unicode_decimal": 58954
+    },
+    {
+      "icon_id": "22124284",
+      "name": "line-layout grid（网格布局）",
+      "font_class": "four-grid",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "21963290",
+      "name": "合流泵站",
+      "font_class": "heliubengzhan",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "985074",
+      "name": "关联",
+      "font_class": "relate",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "21834465",
+      "name": "新增指标 copy 3",
+      "font_class": "import",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "21657503",
+      "name": "pumpdistribute",
+      "font_class": "pumpdistribute",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "18916447",
+      "name": "下 拉",
+      "font_class": "xiala1",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "21470876",
+      "name": "编组 (2)",
+      "font_class": "account",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "21470877",
+      "name": "编组 (3)",
+      "font_class": "analysis2",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "21470871",
+      "name": "形状 2",
+      "font_class": "alarm2",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "21470872",
+      "name": "形状结合",
+      "font_class": "silt-monitor",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "21470873",
+      "name": "编组",
+      "font_class": "distribute",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "21470874",
+      "name": "视频监控",
+      "font_class": "video2",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "21470875",
+      "name": "编组 (1)",
+      "font_class": "plant-manage",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "28278590",
+      "name": "水质计-污水管网",
+      "font_class": "overdue",
+      "unicode": "e8c7",
+      "unicode_decimal": 59591
+    },
+    {
+      "icon_id": "20609090",
+      "name": "水质计-污水管网",
+      "font_class": "shuizhiji-wushuiguanwang1",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "28278407",
+      "name": "水质计-污水管网",
+      "font_class": "intime",
+      "unicode": "e8c6",
+      "unicode_decimal": 59590
+    },
+    {
+      "icon_id": "20608808",
+      "name": "污水处理厂-积水点",
+      "font_class": "wushuichulichang-jishuidian",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "20608809",
+      "name": "水质计-污水管网",
+      "font_class": "shuizhiji-wushuiguanwang",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "20608810",
+      "name": "排涝泵站-积水点",
+      "font_class": "pailaobengzhan-jishuidian",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "20608811",
+      "name": "流量计-雨水管网",
+      "font_class": "liuliangji-yushuiguanwang",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "20347294",
+      "name": "污水处理厂",
+      "font_class": "wushuichulichang2",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "20322916",
+      "name": "排涝",
+      "font_class": "drainage-pump",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "20322917",
+      "name": "污水",
+      "font_class": "sewage-pump",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "975382",
+      "name": "返回",
+      "font_class": "return",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "20276149",
+      "name": "视频",
+      "font_class": "video1",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "20274965",
+      "name": "上报",
+      "font_class": "report1",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "20274966",
+      "name": "病例核实",
+      "font_class": "verify",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "20274967",
+      "name": "解除",
+      "font_class": "remove",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "20254677",
+      "name": "数据",
+      "font_class": "chart",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "187000",
+      "name": "回退",
+      "font_class": "back",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "20222926",
+      "name": "编辑",
+      "font_class": "edit",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "20222927",
+      "name": "导出",
+      "font_class": "download",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "20222928",
+      "name": "删除",
+      "font_class": "delete",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "20222929",
+      "name": "新增指标",
+      "font_class": "add",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "20222931",
+      "name": "更新记录icon",
+      "font_class": "update",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "20220321",
+      "name": "排水户分布",
+      "font_class": "dr-sewerage",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "20220304",
+      "name": "排水户管理",
+      "font_class": "drainage",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "20220305",
+      "name": "证件到期",
+      "font_class": "license",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "20220306",
+      "name": "检测报告",
+      "font_class": "report",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "20201986",
+      "name": "中雨",
+      "font_class": "rainfall",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "20186783",
+      "name": "充满度",
+      "font_class": "fullness",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "20186784",
+      "name": "1-坡度",
+      "font_class": "slope",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "20186785",
+      "name": "高流速",
+      "font_class": "high-speed",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "20186786",
+      "name": "溢流量",
+      "font_class": "overflow",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "20186787",
+      "name": "低流速",
+      "font_class": "low-speed",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "18024207",
+      "name": "右移",
+      "font_class": "right-more",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "20160963",
+      "name": "叉",
+      "font_class": "close",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "20145930",
+      "name": "图层",
+      "font_class": "layer",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "20145931",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "20145932",
+      "name": "全屏",
+      "font_class": "full-screen",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "20145933",
+      "name": "尺寸",
+      "font_class": "tool",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "3977821",
+      "name": "放大",
+      "font_class": "enlarge",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "3977830",
+      "name": "缩小",
+      "font_class": "reduce",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "5203322",
+      "name": "圆圈",
+      "font_class": "circle",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "20126901",
+      "name": "排水分析",
+      "font_class": "analysis",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "20126902",
+      "name": "污水系统",
+      "font_class": "sewage-scheduling",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "20126903",
+      "name": "排水内涝",
+      "font_class": "water-alarm",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "20126904",
+      "name": "雨水管网",
+      "font_class": "rainwater-pipe",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "20126905",
+      "name": "污水管网",
+      "font_class": "sewage-pipe",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "8646214",
+      "name": "菜单收起",
+      "font_class": "menuhide",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "8646215",
+      "name": "菜单展开",
+      "font_class": "menushow",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "19225423",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "16905338",
+      "name": "图表 饼状图",
+      "font_class": "pie-chart",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "7532875",
+      "name": "更多",
+      "font_class": "more",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "10885315",
+      "name": "柱状图",
+      "font_class": "column",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "15486513",
+      "name": "单位",
+      "font_class": "unit",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "14963610",
+      "name": "human",
+      "font_class": "human",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "14963611",
+      "name": "star",
+      "font_class": "star",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "14963612",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "14963613",
+      "name": "tree",
+      "font_class": "tree",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "14963614",
+      "name": "trace",
+      "font_class": "trace",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "14963615",
+      "name": "location",
+      "font_class": "location",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "14963616",
+      "name": "video",
+      "font_class": "video",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "14704357",
+      "name": "刷新",
+      "font_class": "refresh",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "14704358",
+      "name": "表格",
+      "font_class": "table",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14704359",
+      "name": "数据",
+      "font_class": "data",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "14395041",
+      "name": "export",
+      "font_class": "export",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "32875259",
+      "name": "export-copy",
+      "font_class": "export2",
+      "unicode": "ec52",
+      "unicode_decimal": 60498
+    },
+    {
+      "icon_id": "14359310",
+      "name": "monitor-data",
+      "font_class": "monitor-data",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "14359311",
+      "name": "data-analysis",
+      "font_class": "data-analysis",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "14359312",
+      "name": "equip-detail",
+      "font_class": "equip-detail",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "14359313",
+      "name": "alarm-record",
+      "font_class": "alarm-record",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}

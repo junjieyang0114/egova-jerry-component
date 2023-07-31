@@ -1,0 +1,110 @@
+@charset 'UTF-8';
+
+/* --------------------------------------------
+宽高
+---------------------------------------------*/
+@mixin size($width: 100%, $height: 100%) {
+    width: $width;
+    height: $height;
+}
+
+/* --------------------------------------------
+flex布局
+---------------------------------------------*/
+@mixin flex($row: row, $justify-content: flex-start, $align-items: flex-start, $wrap: nowrap) {
+    display: flex;
+    flex-flow: $row $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+/* --------------------------------------------
+省略号
+---------------------------------------------*/
+@mixin ellipsis() {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* --------------------------------------------
+自定义行数省略号
+---------------------------------------------*/
+@mixin multiellipsis($line) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: $line; //行数
+    -webkit-box-orient: vertical;
+}
+
+/* --------------------------------------------
+绝对定位
+---------------------------------------------*/
+@mixin absolute($top: unset, $right: unset, $bottom: unset, $left: unset) {
+    position: absolute;
+    top: $top;
+    left: $left;
+    bottom: $bottom;
+    right: $right;
+}
+
+/* --------------------------------------------
+居中
+---------------------------------------------*/
+@mixin center($center: all) {
+    position: absolute;
+
+    @if $center==vertical {
+        top: 50%;
+        bottom: unset;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    } @else if $center==horizontal {
+        left: 50%;
+        right: unset;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    } @else {
+        top: 50%;
+        left: 50%;
+        right: unset;
+        bottom: unset;
+        -webkit-transform: translate(round(-50%), round(-50%));
+        -ms-transform: translate(round(-50%), round(-50%));
+        transform: translate(round(-50%), round(-50%));
+    }
+}
+
+// 盒子阴影样式一
+@mixin box-shadow-1 {
+    box-shadow: 0px 2px 5px 0px rgba(34, 51, 85, 0.1);
+}
+
+/* --------------------------------------------
+背景图片
+---------------------------------------------*/
+@mixin bg-img($url) {
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+/* --------------------------------------------
+字体大小及颜色
+---------------------------------------------*/
+@mixin font($size, $color: unset, $weight: unset) {
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+}
+/* --------------------------------------------
+文字居中
+---------------------------------------------*/
+@mixin font-height($height) {
+    height: $height;
+    line-height: $height;
+}
